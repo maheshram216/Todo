@@ -1,0 +1,46 @@
+.App {
+  position: relative;
+  top: 30px;
+  align-items: center;
+  width: 500px;
+  /* height: 500px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 0px 0px 30px 500px;
+  /* border: 2px solid; */
+}
+
+
+.input-btn {
+  margin: 3px 0px;
+  border: black;
+  border-color: blue;
+  width: 445px;
+  height: 40px;
+  border:2px solid gray;
+  outline: none;
+  transition: 2s;
+}
+
+.list {
+  position: relative;
+  background-color: lightblue;
+  border:2px solid gray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px 0px;
+  height: 44px; 
+  transition: all 2s ease-in-out;
+}
+
+input :focus{
+  border: 2px solid blue;
+}
+
+.delete-btn {
+  position: absolute;
+  left: 320px
+}
+
+.edit-btn {
+  position: absolute;
+  left: 430px
+}
